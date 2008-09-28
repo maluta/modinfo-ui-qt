@@ -1,0 +1,2 @@
+qmake -project && qmake && make 
+./qmodinfo
