@@ -1,0 +1,47 @@
+<ui version="4.0" >
+ <class>Form</class>
+ <widget class="QWidget" name="Form" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>334</width>
+    <height>365</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Information of /proc/modules</string>
+  </property>
+  <layout class="QVBoxLayout" >
+   <item>
+    <widget class="QLabel" name="label_2" >
+     <property name="text" >
+      <string>Loaded modules:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboBox" >
+     <property name="acceptDrops" >
+      <bool>false</bool>
+     </property>
+     <property name="autoFillBackground" >
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextEdit" name="textEdit" />
+   </item>
+   <item>
+    <widget class="QLabel" name="label" >
+     <property name="text" >
+      <string>Total: </string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
